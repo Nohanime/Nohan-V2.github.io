@@ -9,18 +9,19 @@
 :root {
     --dark: #111;
     --black: #333;
-    --beige: #ffeec8;
+    --beige: #FEDB8D;
 }
 
 body {
     min-height: 100vh;
     background-color: var(--dark);
-}
-
-main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    width: 380px;
     background-color: var(--black);
 }
 
