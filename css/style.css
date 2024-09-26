@@ -21,6 +21,7 @@ body {
 }
 
 main {
+    text-align: center;
     width: 380px;
     background-color: var(--black);
 }
