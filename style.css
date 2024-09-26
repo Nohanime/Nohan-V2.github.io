@@ -1,0 +1,29 @@
+@import url(normalize.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark: #111;
+    --black: #333;
+    --beige: #f8e5bc;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--dark);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--beige);
+}
+
+h1 {
+    background-color: var(--black);
+}
