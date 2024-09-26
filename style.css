@@ -9,7 +9,7 @@
 :root {
     --dark: #111;
     --black: #333;
-    --beige: #f8e5bc;
+    --beige: #ffeec8;
 }
 
 body {
@@ -21,9 +21,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--beige);
+    background-color: var(--black);
 }
 
 h1 {
-    background-color: var(--black);
+    color: var(--beige);
 }
